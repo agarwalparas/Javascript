@@ -16,4 +16,11 @@ For More [Refrence](https://www.educative.io/collection/page/5679346740101120/57
 ## Variable Scope
 
 For More [Refrence](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-scope-in-javascript)
-- 
+- Scope refers to the visibility of variables. They are of two types Global , Local
+- For var => Declaration outside function have global scope , Inside function has local scope.
+- For let and const => Declaration outside function have global scope , Inside function and block statements has local scope.
+
+## Context
+For More [Refrence](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-lexical-scope)
+- It is used to refer this.
+
