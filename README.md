@@ -5,6 +5,7 @@
 - [Variable Scope](#variable-scope)
 - [Context](#context)
 - [this](#this)
+- Function Chaining (#Function-Chaining)
 - [Hoisting](#hoisting)
 
 ## Variable Refrence
@@ -30,6 +31,29 @@ For more https://www.educative.io/courses/step-up-your-js-a-comprehensive-guide-
 - 2- apply,call,bind (this as obj pass to bind,callor apply)
 - 3- fn call as method (this as the left obj from dot)
 - 4- free function invocation(this as global window fn)
+
+# Function-Chaining
+FOr more https://medium.com/technofunnel/javascript-function-chaining-8b2fbef76f7f
+Eg
+var Obj = {
+  result: 0,
+  addNumber: function(a, b) {
+    this.result = a + b;
+    return this;
+  },
+
+  multiplyNumber: function(a) {
+    this.result = this.result * a;
+    return this;
+  },
+ 
+  divideNumber: function(a) {
+    this.result = this.result / a;
+    return this;
+  }
+}
+
+Obj.addNumber(10, 20).multiplyNumber(10).divideNumber(10);
 
 ## Context
 For More [Refrence](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-lexical-scope)
