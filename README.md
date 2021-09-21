@@ -63,6 +63,7 @@ Read more https://medium.com/@ajmeyghani/javascript-functions-a-pocket-reference
 
 ## prototypes
 Read more https://medium.com/@ajmeyghani/javascript-prototypes-a-pocket-reference-d88f550ffce3
+- To create prototype - Object.create(Object.prototype) , new Object() . It will create a obj link to Object ie. Object is a prototype of obj
 
 ## Context
 For More [Refrence](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-lexical-scope)
