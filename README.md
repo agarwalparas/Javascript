@@ -4,21 +4,32 @@
 - [Variable Refrence](#variable-refrence)
 - [Variable Scope](#variable-scope)
 - [Context](#context)
+- [this](#this)
 - [Hoisting](#hoisting)
 
 ## Variable Refrence
 
 For More [Refrence](https://www.educative.io/collection/page/5679346740101120/5707702298738688/5685265389584384)
-- For finding values, make a memory chart of values and refer variables assignments and then do modification according to code execution. This will help you to know exact values of variables.
-- Re-assignmnent a variable will make new entry in memory chart and variable then refrence to its reassigned value.Old variables will store old values memory refrence.
-- If Nested object property is also an object then treat it as separate value in memory chart and nested property as variable refered to that mapped value.
+- For finding values, make a memory chart of variable, value, memory and then do modifications in that table according to code execution. This will help you to know exact values of variables and the result. To understand this go to above link
+- Re-assignmnent a value to variable will make new entry in memory chart with new address
+- If Nested object property is assigned to a new variable then that new variable holds the address of that property. Any changes to new variable will change to the object itself
 
 ## Variable Scope
 
 For More [Refrence](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-scope-in-javascript)
 - Scope refers to the visibility of variables. They are of two types Global , Local
 - For var => Declaration outside function have global scope , Inside function has local scope.
-- For let and const => Declaration outside function have global scope , Inside function and block statements has local scope.
+- For let and const => Declaration outside function have global scope , Inside function blocks ie if/else, for they have only block scope
+- let are not hoisted whereas var are hoisted
+
+## this
+For more https://www.educative.io/courses/step-up-your-js-a-comprehensive-guide-to-intermediate-javascript/7nA1nGn3V6A
+- Use rules from this page to apply for different types of function invocations
+- If multiple rules apply the recent will take place like 
+- 1- new (this as new obj)
+- 2- apply,call,bind (this as obj pass to bind,callor apply)
+- 3- fn call as method (this as the left obj from dot)
+- 4- free function invocation(this as global window fn)
 
 ## Context
 For More [Refrence](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-lexical-scope)
