@@ -69,3 +69,5 @@ Read more https://medium.com/@ajmeyghani/javascript-prototypes-a-pocket-referenc
 For More [Refrence](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-lexical-scope)
 - It is used to refer this.
 
+https://medium.com/@ajmeyghani/interview-questions-1145e3763bce
+
