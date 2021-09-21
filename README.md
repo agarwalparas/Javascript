@@ -5,7 +5,9 @@
 - [Variable Scope](#variable-scope)
 - [Context](#context)
 - [this](#this)
-- Function Chaining (#Function-Chaining)
+- Function Chaining(#Function-Chaining)
+- Functions(#functions)
+- Prototypes(#prototypes)
 - [Hoisting](#hoisting)
 
 ## Variable Refrence
@@ -32,7 +34,7 @@ For more https://www.educative.io/courses/step-up-your-js-a-comprehensive-guide-
 - 3- fn call as method (this as the left obj from dot)
 - 4- free function invocation(this as global window fn)
 
-# Function-Chaining
+## Function-Chaining
 FOr more https://medium.com/technofunnel/javascript-function-chaining-8b2fbef76f7f
 Eg
 var Obj = {
@@ -54,6 +56,13 @@ var Obj = {
 }
 
 Obj.addNumber(10, 20).multiplyNumber(10).divideNumber(10);
+
+
+## functions
+Read more https://medium.com/@ajmeyghani/javascript-functions-a-pocket-reference-d42597ceb496
+
+## prototypes
+Read more https://medium.com/@ajmeyghani/javascript-prototypes-a-pocket-reference-d88f550ffce3
 
 ## Context
 For More [Refrence](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-lexical-scope)
